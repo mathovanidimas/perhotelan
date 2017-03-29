@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="perhotelan">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="hotel"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="hotel">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nama"/>
+                <xs:element ref="hargaperhari"/>
+                <xs:element ref="fasilitias"/>
+                <xs:element ref="pemilik"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="hargaperhari">
+    	<xs:simpleType>
+    		<xs:restriction base="xs:decimal">
+
+    			<xs:minInclusive value="100000"></xs:minInclusive>
+    		</xs:restriction>
+    	</xs:simpleType>
+    </xs:element>
+    <xs:element name="fasilitias">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="kamar"/>
+                <xs:element ref="wifi"/>
+                <xs:element ref="kolam"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="kamar" type="xs:integer"/>
+    <xs:element name="wifi" type="xs:integer"/>
+    <xs:element name="kolam" type="xs:integer"/>
+    <xs:element name="pemilik">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nama"/>
+                <xs:element ref="nohp"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nohp" type="xs:integer"/>
+    <xs:element name="nama" type="xs:string"/>
+</xs:schema>

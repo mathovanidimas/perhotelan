@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<perhotelan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="hotel.xsd">
+<hotel>
+		<nama>bahagia</nama>
+		<hargaperhari> 150000</hargaperhari>
+		<fasilitias>
+			<kamar>10</kamar>
+			<wifi>2</wifi>
+			<kolam>1</kolam>
+		</fasilitias>
+		<pemilik>
+			<nama>idang mawardi</nama>
+			<nohp>081353829180</nohp>
+		</pemilik>
+	</hotel>
+	
+<hotel>
+		<nama>bintang</nama>
+		<hargaperhari> 200000</hargaperhari>
+		<fasilitias>
+			<kamar>8</kamar>
+			<wifi>1</wifi>
+			<kolam>1</kolam>
+		</fasilitias>
+		<pemilik>
+			<nama>dimas</nama>
+			<nohp>081353099876</nohp>
+		</pemilik>
+	</hotel>
+	
+<hotel>
+		<nama>matahari</nama>
+		<hargaperhari> 190000</hargaperhari>
+		<fasilitias>
+			<kamar>12</kamar>
+			<wifi>3</wifi>
+			<kolam>2</kolam>
+		</fasilitias>
+		<pemilik>
+			<nama>dika cahya</nama>
+			<nohp>081353090099</nohp>
+		</pemilik>
+	</hotel>
+	
+<hotel>
+		<nama>zodiak</nama>
+		<hargaperhari> 210000</hargaperhari>
+		<fasilitias>
+			<kamar>15</kamar>
+			<wifi>4</wifi>
+			<kolam>2</kolam>
+		</fasilitias>
+		<pemilik>
+			<nama>wadi</nama>
+			<nohp>081353006715</nohp>
+		</pemilik>
+	</hotel>
+	
+<hotel>
+		<nama>mawar</nama>
+		<hargaperhari> 200000</hargaperhari>
+		<fasilitias>
+			<kamar>10</kamar>
+			<wifi>2</wifi>
+			<kolam>2</kolam>
+		</fasilitias>
+		<pemilik>
+			<nama>akbar</nama>
+			<nohp>085209199876</nohp>
+		</pemilik>
+	</hotel>
+	</perhotelan>
+	
